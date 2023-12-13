@@ -1,4 +1,4 @@
-# ML_M3T
+# M3ST
 
 This repository is the official implementation of "M3ST: 3D Medical Image Classifier Using Multi-plane & Multi-slice Swin Transformer, Machine Learning final Project 2023". 
 
@@ -23,3 +23,6 @@ Change the path = "C:/~~" of the main.py file to the location of the file where 
 
 Link to download [data](https://drive.google.com/file/d/1HB8YCmZneezeXbMQNH_HHFhKK2vn-Sjf/view?usp=sharing)
 
+## Training and testing
+
+To train and test the M3ST in the paper, run main.py
