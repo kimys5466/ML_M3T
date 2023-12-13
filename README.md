@@ -5,8 +5,14 @@ This repository is the official implementation of "M3ST: 3D Medical Image Classi
 The M3ST model extracts features from MRI images with significantly reduced computational complexity by avoiding the use of 3D CNN. Moreover, it employs the Swin Transformer, which is more suitable for image analysis, to more effectively extract distributed features from MRI images. 
 
 ## Requirements
-
 #### Step 1:
+To install requirements:
+
+conda env create -f /path/to/ML_project.yaml
+conda activate ML_project
+
+
+#### Step 2:
 Create a new empty folder 'data' in this folder.
 Download datasets and unzip them to the folder 'data'.
 Change the path = "C:/~~" of the main.py file to the location of the file where the data is stored
