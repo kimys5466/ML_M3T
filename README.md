@@ -7,10 +7,10 @@ The M3ST model extracts features from MRI images with significantly reduced comp
 ## Requirements
 #### Step 1:
 To install requirements:
-
+```setup
 conda env create -f /path/to/ML_project.yaml
 conda activate ML_project
-
+```
 
 #### Step 2:
 Create a new empty folder 'data' in this folder.
